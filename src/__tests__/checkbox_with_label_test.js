@@ -4,8 +4,16 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import renderer from 'react-test-renderer';
 import * as TestUtils from 'react-dom/test-utils';
 import CheckboxWithLabel from '../CheckboxWithLabel';
+
+it('renders correctly', () => {
+    const tree = renderer
+      .create(<CheckboxWithLabel labelOn="On" labelOff="Off"/>)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+});
 
 it('CheckboxWithLabel changes the text after click', () => {
   // Render a checkbox with label in the document
