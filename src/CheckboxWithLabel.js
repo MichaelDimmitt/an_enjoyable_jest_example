@@ -20,7 +20,7 @@ export default class CheckboxWithLabel extends React.Component {
   render() {
     return (
       <label>
-        Kind of hard to see the checkbox is below this text. Cheers!
+        Kind of hard to see the checkbox is below this text. Cheers!<br/>
         <input
           type="checkbox"
           checked={this.state.isChecked}
