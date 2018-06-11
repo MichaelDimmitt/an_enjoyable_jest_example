@@ -8,6 +8,7 @@
     "react-scripts": "^1.1.4"
   },
   "scripts": {
-    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
   }
 }
