@@ -1,0 +1,8 @@
+.reposition{
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 50%;
+  width: 500px;
+  margin-left: -250px;
+}

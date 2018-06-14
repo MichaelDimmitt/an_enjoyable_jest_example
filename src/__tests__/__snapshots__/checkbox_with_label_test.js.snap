@@ -8,5 +8,8 @@ exports[`renders correctly 1`] = `
     type="checkbox"
   />
   Off
+  <p>
+    click the checkbox a few times
+  </p>
 </label>
 `;

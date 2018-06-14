@@ -1,0 +1,13 @@
+#loading1 {
+}
+#loading2 {
+  -webkit-transform: rotate(269deg) scale(3);
+}
+.reposition-image {
+  z-index: -1;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
