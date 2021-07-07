@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  color: #fff;
+  background: #1d1f20;
+}
+
+#loading {
+  -webkit-animation: rotation 2s linear;
+  -webkit-transform: rotate(269deg) scale(3);
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.1);
+  }
+  to {
+    -webkit-transform: rotate(269deg) scale(3);
+  }
+}
